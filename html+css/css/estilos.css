@@ -288,6 +288,38 @@ a{
     }
 
 }
+.monkypa {
+    font-family: 'Edu VIC WA NT Beginner' ;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 100vw;
+    max-width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    border: 5px groove #000;
+    background-image: linear-gradient( orange, black, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgray;
+}
+
+.boton {
+    border: none;
+    display: block;
+    text-align: center;
+    background-color: darksalmon;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+}
+
+.boton:hover {
+    height: 100px;
+    background-color: blanchedalmond;
+}
 
 
 
