@@ -1,0 +1,294 @@
+/*FONT*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+/*Selector universal*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*medidas*/
+html {
+    height: 100%;
+}
+
+/*Medidas Relativas*/
+p{
+    font-family: 'Edu VIC WA NT Beginner';
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/*Manejo de Imágenes*/
+.principales{
+    margin: 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+    background-image: url("../assets/background/brown-wooden-flooring.jpg");
+    background-size: cover;
+    font-family: 'Edu VIC WA NT Beginner';
+
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px;
+    background-image: url("../assets/background/fondo\ floral.jpg");
+    font-family: 'Edu VIC WA NT Beginner' ;
+    font-size: 100%;
+    justify-content: center;
+    height: 200%;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Edu VIC WA NT Beginner' ;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.container__nav .list__links{
+    padding: 0 15px;
+}
+
+.btn{
+    border: none;
+    display: block;
+    text-align: right;
+}
+
+
+.btn a{
+    background-color: darksalmon;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+}
+
+.logo{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.list__links {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+main{
+    justify-content: center;
+}
+
+.font-ofertas{
+    font-family: 'Edu VIC WA NT Beginner' ;
+        font-size: 40px;
+        letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: darksalmon;
+    cursor: alias;
+}
+
+.grid_container{
+    font-family: 'Edu VIC WA NT Beginner' ;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    width: 90%;
+    height: 600px;
+    margin: 40px auto;
+    border: 1px groove black;
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "header header header"
+    "nav    main    aside"
+    "nav    main    aside"
+    "footer footer footer"
+    ;
+    gap: 30px;
+}
+
+@media (max-width: 768px){   
+    .grid-container{
+        font-family: 'Edu VIC WA NT Beginner' ;
+        font-size: 25px;
+        text-transform: uppercase;
+    
+        width: 90%;
+        height: 600px;
+        margin: 40px auto;
+        border: 1px groove black;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas: 
+        "header"
+        "main"
+        "aside"
+        "footer"
+        ;
+        gap: 10px;
+    }
+}
+
+.body-contact{
+    color: darksalmon;
+    font-family: 'Edu VIC WA NT Beginner' ;
+    padding: 0 1.5rem;
+}
+
+.contenido{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.nombre-empresa{
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.nombre-empresa span{
+    color: darksalmon;
+}
+
+.contenedor-contacto{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contenedor-contacto > * {
+    padding: 1rem;
+}
+
+.formulario-contacto{
+    background-color: #222222;
+}
+
+.formulario-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario-contacto form .bloque{
+    grid-column: 1/3;
+}
+
+.formulario-contacto form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.formulario-contacto form button,
+.formulario-contacto form input,
+.formulario-contacto form textarea{
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid darksalmon;
+    color: #fff;
+}
+
+.formulario-contacto form button{
+    background-color: darksalmon;
+    border: 1;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+.info-contacto{
+    background-color: #000;
+}
+
+.info-contacto ul,
+.info-contacto p{
+    text-align: center;
+    margin: 1 1 2rem 1;
+}
+
+.info-contacto ul{
+    list-style-type: none;
+    padding: 1;
+}
+
+.info-contacto ul li{
+    padding: .4rem;   
+}
+
+@media (min-width: 768px){
+    .body-contact{
+        height: 100vh;
+        padding: 0 4rem;
+    }
+
+    .contenedor-contacto{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contenedor-contacto > *{
+        padding: 2rem;
+    }
+
+    .info-contacto ul,
+    .info-contacto p{
+        padding: 1rem;
+        text-align: left;
+    }
+
+}
+
+
+
+
