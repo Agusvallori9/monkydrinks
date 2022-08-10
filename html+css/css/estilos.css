@@ -396,3 +396,45 @@ a{
     grid-column: 1/10;
     position: relative;
 }
+
+.card {
+    height: 470px;
+}
+
+.h3 {
+    font-size: 70px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.image-logo-sobrenosotros{
+    margin: 50px;
+}
+
+.texto-sobrenosotros {
+    margin: 50px;
+}
+
+.img-fluid {
+    max-width: 720px;
+    height: max-content;
+}
+
+.carousel {
+    width: auto;
+    height: auto;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    height: 400px;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+.texto-img {
+    color: #fff;
+    
+}
