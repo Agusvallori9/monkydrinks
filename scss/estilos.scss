@@ -1,10 +1,16 @@
 //variables
-$background: red;
+$font: "Edu VIC WA NT Beginner";
+$colorfondo: darksalmon;
+$card-index: height 470px;
+$nav: background-color black;
+
 
 body {
-    background-color:
-    $background;
+    background-color: $colorfondo;
+    font-family: $font;
 }
+
+
 
 
 /*FONT*/
@@ -25,7 +31,7 @@ html {
 
 /*Medidas Relativas*/
 p{
-    font-family: 'Edu VIC WA NT Beginner';
+    font-family: $font;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -44,8 +50,7 @@ p{
     padding: 30px 30px;
     background-image: url("../assets/background/brown-wooden-flooring.jpg");
     background-size: cover;
-    font-family: 'Edu VIC WA NT Beginner';
-
+    font-family: $font;
 }
 
 .productos{
@@ -54,7 +59,7 @@ p{
     text-align: center;
     padding: 20px 20px;
     background-image: url("../assets/background/fondo\ floral.jpg");
-    font-family: 'Edu VIC WA NT Beginner' ;
+    font-family:$font ;
     font-size: 100%;
     justify-content: center;
     height: 200%;
@@ -67,7 +72,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    font-family: 'Edu VIC WA NT Beginner' ;
+    font-family:$font;
     background-color: #000;
     font-weight: bold;
     font-size: 150%;
@@ -130,7 +135,7 @@ main{
 }
 
 .font-ofertas{
-    font-family: 'Edu VIC WA NT Beginner' ;
+    font-family:$font ;
         font-size: 40px;
         letter-spacing: 1px;
 }
@@ -142,7 +147,7 @@ a{
 }
 
 .grid_container{
-    font-family: 'Edu VIC WA NT Beginner' ;
+    font-family:$font ;
     font-size: 25px;
     text-transform: uppercase;
 
@@ -165,7 +170,7 @@ a{
 
 @media (max-width: 768px){   
     .grid-container{
-        font-family: 'Edu VIC WA NT Beginner' ;
+        font-family:$font;
         font-size: 25px;
         text-transform: uppercase;
     
@@ -189,7 +194,7 @@ a{
 
 .body-contact{
     color: darksalmon;
-    font-family: 'Edu VIC WA NT Beginner' ;
+    font-family:$font;
     padding: 0 1.5rem;
 }
 
@@ -298,7 +303,7 @@ a{
 
 }
 .monkypa {
-    font-family: 'Edu VIC WA NT Beginner' ;
+    font-family:$font;
     font-size: 50px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -308,11 +313,11 @@ a{
     height: 300px;
     margin: 10px auto;
     border: 5px groove #000;
-    background-image: linear-gradient( orange, black, white);
+    background-image: linear-gradient( black, grey);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: darkgray;
+    color: white;
 }
 
 .boton {
@@ -354,7 +359,7 @@ a{
 }
 
 .navbar {
-    background: black;
+    background: $nav
 }
 
 .container-fluid {
@@ -407,7 +412,7 @@ a{
 }
 
 .card {
-    height: 470px;
+    height: $card-index;
 }
 
 .h3 {
@@ -447,3 +452,4 @@ a{
     color: #fff;
     
 }
+
