@@ -372,11 +372,11 @@ a {
 }
 
 .contenido {
-  width: 10%;
+  width: 100%;
   float: left;
   margin: 10px;
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  justify-content:center;
 }
 
 .banner-info {
@@ -448,7 +448,28 @@ a {
 }
 
 .texto-img {
-  color: #fff;
+  color: black;
 }
 
+.card-img-top {
+  width: 250px;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: 12px;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.payment-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.
 /*# sourceMappingURL=estilos.css.map */
