@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Edu+VIC+WA+NT+Beginner&display=swap");
-body {
-  background-color: darksalmon;
+body {;
   font-family: "Edu VIC WA NT Beginner";
 }
 
@@ -93,7 +92,7 @@ header {
   align-items: center;
   padding: 30px;
   font-family: "Edu VIC WA NT Beginner";
-  background-color: #000;
+  background-color: white;
   font-weight: bold;
   font-size: 150%;
   text-decoration: none;
@@ -160,7 +159,7 @@ main {
 
 a {
   text-decoration: none;
-  color: darksalmon;
+  color:   rgb(238, 132, 129);
   cursor: alias;
 }
 
@@ -196,7 +195,7 @@ a {
   }
 }
 .body-contact {
-  color: darksalmon;
+  color:   rgb(238, 132, 129);mon;
   font-family: "Edu VIC WA NT Beginner";
   padding: 0 1.5rem;
 }
@@ -216,7 +215,7 @@ a {
 }
 
 .nombre-empresa span {
-  color: darksalmon;
+  color:  rgb(238, 132, 129);
 }
 
 .contenedor-contacto {
@@ -253,12 +252,12 @@ a {
   border: none;
   background: none;
   outline: none;
-  border-bottom: 1px solid darksalmon;
+  border-bottom: 1px solid   rgb(238, 132, 129);;
   color: #fff;
 }
 
 .formulario-contacto form button {
-  background-color: darksalmon;
+  background-color: rgb(238, 132, 129);
   border: 1;
   text-transform: uppercase;
   padding: 2rem;
@@ -335,12 +334,11 @@ a {
 }
 
 .nav-link {
-  color: darksalmon;
+  color:rgb(238, 132, 129);
 }
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgb(120, 120, 120);
 }
 
 .w-100 {
@@ -358,7 +356,7 @@ a {
 }
 
 .navbar {
-  background: background-color black;
+  background: background-color white;
 }
 
 .container-fluid {
@@ -386,13 +384,7 @@ a {
 }
 
 .card-index {
-  width: 200px;
-  float: left;
-  margin: 50px;
-  display: block;
-  justify-content: center;
-  grid-column: 1/10;
-  position: relative;
+  width: 100%;
 }
 
 .card col col-sm-12 col-md-6 col-lg-3 {
@@ -411,7 +403,7 @@ a {
 }
 
 .card {
-  height: height 470px;
+  margin: 10px;
 }
 
 .h3 {
