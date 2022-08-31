@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Edu+VIC+WA+NT+Beginner&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Edu+VIC+WA+NT+Beginner&family=Montserrat:ital,wght@1,700&display=swap');
 body {;
-  font-family: "Edu VIC WA NT Beginner";
+  font-family:  'EB Garamond', serif;
 }
 
 /*maps*/
@@ -51,7 +51,7 @@ html {
 
 /*Medidas Relativas*/
 p {
-  font-family: "Edu VIC WA NT Beginner";
+  font-family: 'EB Garamond', serif;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -70,7 +70,7 @@ p {
   padding: 30px 30px;
   background-image: url("../assets/background/brown-wooden-flooring.jpg");
   background-size: cover;
-  font-family: "Edu VIC WA NT Beginner";
+  font-family: 'EB Garamond', serif;
 }
 
 .productos {
@@ -79,8 +79,7 @@ p {
   text-align: center;
   padding: 20px 20px;
   background-image: url("../assets/background/fondo floral.jpg");
-  font-family: "Edu VIC WA NT Beginner";
-  font-size: 100%;
+  font-family: 'EB Garamond', serif;
   justify-content: center;
   height: 200%;
   align-items: center;
@@ -91,7 +90,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  font-family: "Edu VIC WA NT Beginner";
+  font-family: 'EB Garamond', serif;
   background-color: white;
   font-weight: bold;
   font-size: 150%;
@@ -152,7 +151,7 @@ main {
 }
 
 .font-ofertas {
-  font-family: "Edu VIC WA NT Beginner";
+  font-family:'EB Garamond', serif;
   font-size: 40px;
   letter-spacing: 1px;
 }
@@ -164,7 +163,7 @@ a {
 }
 
 .grid_container {
-  font-family: "Edu VIC WA NT Beginner";
+  font-family: 'EB Garamond', serif;
   font-size: 25px;
   text-transform: uppercase;
   width: 90%;
@@ -180,7 +179,7 @@ a {
 
 @media (max-width: 768px) {
   .grid-container {
-    font-family: "Edu VIC WA NT Beginner";
+    font-family: 'EB Garamond', serif;
     font-size: 25px;
     text-transform: uppercase;
     width: 90%;
@@ -196,7 +195,7 @@ a {
 }
 .body-contact {
   color:   rgb(238, 132, 129);mon;
-  font-family: "Edu VIC WA NT Beginner";
+  font-family: 'EB Garamond', serif;
   padding: 0 1.5rem;
 }
 
@@ -301,7 +300,7 @@ a {
   }
 }
 .monkypa {
-  font-family: "Edu VIC WA NT Beginner";
+  font-family: 'EB Garamond', serif;
   font-size: 50px;
   letter-spacing: 5px;
   text-transform: uppercase;
